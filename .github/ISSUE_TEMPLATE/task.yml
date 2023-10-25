@@ -46,7 +46,7 @@ body:
       required: true
 
   - type: textarea
-    id: sub task
+    id: sub-task
     attributes:
       label: task に関連する sub task
       description: こちらに`task`に関連する`sub task`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
