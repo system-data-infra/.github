@@ -1,0 +1,42 @@
+name: Issue template
+description: Issueを作成する際に利用ください
+title: "[Issue]: "
+labels: ["issue"]
+projects: ["system-data-infra/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issueの作成ありがとうございます。
+  - type: textarea
+    id: issue-reason
+    attributes:
+      label: Issue 作成の背景
+      description: こちらに`Issue`を作成した背景（理由）を記載ください。
+      placeholder: こちらに`Issue`を作成した背景（理由）を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue の内容
+      description: こちらに`Issue`の内容を記載ください。
+      placeholder: こちらに`Issue`の内容を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-close-conditions
+    attributes:
+      label: Issue の完了条件（終了条件）
+      description: こちらに`Issue`の完了（終了）する条件をチェックボックス形式で記載ください。
+      placeholder: こちらに`Issue`の完了（終了）する条件をチェックボックス形式で記載ください。
+    validations:
+      required: true
+
+  - type: markdown
+    id: sub-issue
+    attributes:
+          value: |
+            Issue に関連する Sub Issueがある場合に記載ください。
