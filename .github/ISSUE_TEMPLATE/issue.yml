@@ -17,7 +17,7 @@ body:
     validations:
       required: true
 
-  - type:textarea
+  - type: textarea
     id: issue
     attributes:
       label: Issue の内容
