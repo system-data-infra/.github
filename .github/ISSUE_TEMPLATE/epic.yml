@@ -1,0 +1,51 @@
+name: Epic template
+description: Epicを作成する際に利用ください
+title: "[Epic]: "
+labels: ["epic"]
+projects: ["system-data-infra/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Epicの作成ありがとうございます。
+
+  - type: textarea
+    id: Epic-reason
+    attributes:
+      label: Epic 作成の背景
+      description: こちらに`Epic`を作成した背景（理由）を記載ください。
+      placeholder: こちらに`Epic`を作成した背景（理由）を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: Epic
+    attributes:
+      label: Epic の内容
+      description: こちらに`Epic`の内容を記載ください。
+      placeholder: こちらに`Epic`の内容を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: Epic-close-conditions
+    attributes:
+      label: Epic の完了条件（終了条件）
+      description: こちらに`Epic`の完了（終了）する条件をチェックボックス形式で記載ください。
+      placeholder: こちらに`Epic`の完了（終了）する条件をチェックボックス形式で記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Epic に関連する Issue
+      description: こちらに`Epic`に関連する`Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
+      placeholder: こちらに`Epic`に関連する`Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
+
+  - type: textarea
+    id: story
+    attributes:
+      label: Epic に関連する Story
+      description: こちらに`Epic`に関連する`Story`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
+      placeholder: こちらに`Epic`に関連する`Story`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 

@@ -1,0 +1,46 @@
+name: sub task template
+description: sub taskを作成する際に利用ください
+title: "[sub task]: "
+labels: ["sub task"]
+projects: ["system-data-infra/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        sub taskの作成ありがとうございます。
+
+  - type: textarea
+    id: task
+    attributes:
+      label: 関連する Sub Task または Task を記載してください。
+      description: こちらに関連する`Task`を記載してください。
+      placeholder: こちらに関連する`Task`を記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub-task-reason
+    attributes:
+      label: sub task 作成の背景
+      description: こちらに`sub task`を作成した背景（理由）を記載ください。
+      placeholder: こちらに`sub task`を作成した背景（理由）を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub-task
+    attributes:
+      label: sub task の内容
+      description: こちらに`sub task`の内容を記載ください。
+      placeholder: こちらに`sub task`の内容を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub-task-close-conditions
+    attributes:
+      label: sub task の完了条件（終了条件）
+      description: こちらに`sub task`の完了（終了）する条件をチェックボックス形式で記載ください。
+      placeholder: こちらに`sub task`の完了（終了）する条件をチェックボックス形式で記載ください。
+    validations:
+      required: true

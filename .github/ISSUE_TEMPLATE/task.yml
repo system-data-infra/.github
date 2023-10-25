@@ -1,0 +1,53 @@
+name: task template
+description: taskを作成する際に利用ください
+title: "[task]: "
+labels: ["task"]
+projects: ["system-data-infra/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        taskの作成ありがとうございます。
+
+  - type: textarea
+    id: issue-or-sub-issue
+    attributes:
+      label: 関連する Issue または Sub Issue を記載してください。
+      description: こちらに関連する`Issue or Sub Issue`を記載してください。
+      placeholder: こちらに関連する`Issue or Sub Issue`を記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: task-reason
+    attributes:
+      label: task 作成の背景
+      description: こちらに`task`を作成した背景（理由）を記載ください。
+      placeholder: こちらに`task`を作成した背景（理由）を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: task
+    attributes:
+      label: task の内容
+      description: こちらに`task`の内容を記載ください。
+      placeholder: こちらに`task`の内容を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: task-close-conditions
+    attributes:
+      label: task の完了条件（終了条件）
+      description: こちらに`task`の完了（終了）する条件をチェックボックス形式で記載ください。
+      placeholder: こちらに`task`の完了（終了）する条件をチェックボックス形式で記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub task
+    attributes:
+      label: task に関連する sub task
+      description: こちらに`task`に関連する`sub task`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
+      placeholder: こちらに`task`に関連する`sub task`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 

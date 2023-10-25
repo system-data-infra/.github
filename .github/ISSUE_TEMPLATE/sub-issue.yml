@@ -1,0 +1,53 @@
+name: Sub Issue template
+description: Sub Issueを作成する際に利用ください
+title: "[Sub Issue]: "
+labels: ["sub issue"]
+projects: ["system-data-infra/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sub Issueの作成ありがとうございます。
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: 関連する Issue を記載してください。
+      description: こちらに関連する`Issue`を記載してください。
+      placeholder: こちらに関連する`Issue`を記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub-issue-reason
+    attributes:
+      label: sub Issue 作成の背景
+      description: こちらに`Sub Issue`を作成した背景（理由）を記載ください。
+      placeholder: こちらに`Sub Issue`を作成した背景（理由）を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub-issue
+    attributes:
+      label: Sub Issue の内容
+      description: こちらに`Sub Issue`の内容を記載ください。
+      placeholder: こちらに`Sub Issue`の内容を記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: sub-issue-close-conditions
+    attributes:
+      label: Sub Issue の完了条件（終了条件）
+      description: こちらに`Sub Issue`の完了（終了）する条件をチェックボックス形式で記載ください。
+      placeholder: こちらに`Sub Issue`の完了（終了）する条件をチェックボックス形式で記載ください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: task
+    attributes:
+      label: Sub Issue に関連する task
+      description: こちらに`Sub Issue`に関連する`Sub Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
+      placeholder: こちらに`Sub Issue`に関連する`Sub Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
