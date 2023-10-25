@@ -4,7 +4,7 @@ title: "[Issue]: "
 labels: ["issue"]
 projects: ["system-data-infra/6"]
 body:
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         Issueの作成ありがとうございます。
