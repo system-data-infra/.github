@@ -38,6 +38,5 @@ body:
   - type: markdown
     id: sub-issue
     attributes:
-      label: Issue に関連する Sub Issue
-      description: Issue に関連する Sub Issueがある場合に記載ください。
-      placeholder: Issue に関連する Sub Issueがある場合に記載ください。
+          value: |
+            Issue に関連する Sub Issueがある場合に記載ください。
