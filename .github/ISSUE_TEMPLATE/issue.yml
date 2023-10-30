@@ -37,13 +37,6 @@ body:
       required: true
 
   - type: textarea
-    id: sub-issue
-    attributes:
-      label: Issue に関連する Sub Issue
-      description: こちらに`Issue`に関連する`Sub Issue`がある場合にチェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
-      placeholder: こちらに`Issue`に関連する`Sub Issue`チェックボックス形式で作成してください。あとで追加しても問題ないです。) 
-
-  - type: textarea
     id: task
     attributes:
       label: Issue に関連する task

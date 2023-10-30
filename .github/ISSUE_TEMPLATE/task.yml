@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: issue-or-sub-issue
     attributes:
-      label: 関連する Issue または Sub Issue を記載してください。
+      label: 関連する Issue
       description: こちらに関連する`Issue or Sub Issue`を記載してください。
       placeholder: こちらに関連する`Issue or Sub Issue`を記載してください。
     validations:
