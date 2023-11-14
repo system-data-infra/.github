@@ -2,7 +2,7 @@ name: Epic template
 description: Epicを作成する際に利用ください
 title: "[Epic]: "
 labels: ["epic"]
-projects: ["system-data-infra/6"]
+projects: ["system-data-infra/13"]
 body:
   - type: markdown
     attributes:
@@ -13,8 +13,11 @@ body:
     id: Epic-reason
     attributes:
       label: Epic 作成の背景
-      description: こちらに`Epic`を作成した背景（理由）を記載ください。
-      placeholder: こちらに`Epic`を作成した背景（理由）を記載ください。
+      description: こちらに`Epic`を作成した背景（理由）を記載ください。(なるべく短文で箇条書きで、図とかもあれば記載してください)
+      value: |
+        - 箇条書き1
+        - 箇条書き2
+        - 箇条書き3
     validations:
       required: true
 
@@ -22,8 +25,11 @@ body:
     id: Epic
     attributes:
       label: Epic の内容
-      description: こちらに`Epic`の内容を記載ください。
-      placeholder: こちらに`Epic`の内容を記載ください。
+      description: こちらに`Epic`の内容を記載ください。(なるべく短文で箇条書きで、図とかもあれば記載してください)
+      value: |
+        - 箇条書き1
+        - 箇条書き2
+        - 箇条書き3
     validations:
       required: true
 
@@ -44,7 +50,10 @@ body:
     attributes:
       label: Epic に関連する Issue
       description: こちらに`Epic`に関連する`Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
-      placeholder: こちらに`Epic`に関連する`Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
+      value: |
+        - URL
+        - URL
+        - URL
 
   - type: textarea
     id: story
