@@ -2,7 +2,7 @@ name: Issue template
 description: Issueを作成する際に利用ください
 title: "[Issue]: "
 labels: ["issue"]
-projects: ["system-data-infra/13"]
+
 body:
   - type: markdown
     attributes:
