@@ -14,7 +14,10 @@ body:
     attributes:
       label: 関連する Issue
       description: こちらに関連する`Issue or Sub Issue`を記載してください。
-      placeholder: こちらに関連する`Issue or Sub Issue`を記載してください。
+      value: |
+        - URL
+        - URL
+        - URL
     validations:
       required: true
 
@@ -22,8 +25,11 @@ body:
     id: task-reason
     attributes:
       label: task 作成の背景
-      description: こちらに`task`を作成した背景（理由）を記載ください。
-      placeholder: こちらに`task`を作成した背景（理由）を記載ください。
+      description: こちらに`task`を作成した背景（理由）を記載ください。(なるべく短文で箇条書きで)
+      value: |
+        - 箇条書き1 
+        - 箇条書き2
+        - 箇条書き3
     validations:
       required: true
 
@@ -31,8 +37,11 @@ body:
     id: task
     attributes:
       label: task の内容
-      description: こちらに`task`の内容を記載ください。
-      placeholder: こちらに`task`の内容を記載ください。
+      description: こちらに`task`の内容を記載ください。(なるべく短文で箇条書きで)
+      value: |
+        - 箇条書き1 
+        - 箇条書き2
+        - 箇条書き3
     validations:
       required: true
 
@@ -41,7 +50,10 @@ body:
     attributes:
       label: task の完了条件（終了条件）
       description: こちらに`task`の完了（終了）する条件をチェックボックス形式で記載ください。
-      placeholder: こちらに`task`の完了（終了）する条件をチェックボックス形式で記載ください。
+      value: |
+        -[] チェックボックス1 
+        -[] チェックボックス2
+        -[] チェックボックス3
     validations:
       required: true
 

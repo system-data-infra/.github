@@ -13,8 +13,11 @@ body:
     id: Story-reason
     attributes:
       label: Story 作成の背景
-      description: こちらに`Story`を作成した背景（理由）を記載ください。
-      placeholder: こちらに`Story`を作成した背景（理由）を記載ください。
+      description: こちらに`Story`を作成した背景（理由）を記載ください。(なるべく短文で箇条書きで、図とかもあれば記載してください)
+      value: |
+        - 箇条書き1
+        - 箇条書き2
+        - 箇条書き3
     validations:
       required: true
 
@@ -22,8 +25,11 @@ body:
     id: Story
     attributes:
       label: Story の内容
-      description: こちらに`Story`の内容を記載ください。
-      placeholder: こちらに`Story`の内容を記載ください。
+      description: こちらに`Story`の内容を記載ください。(なるべく短文で箇条書きで)
+      value: |
+        - 箇条書き1 
+        - 箇条書き2
+        - 箇条書き3
     validations:
       required: true
 
@@ -32,7 +38,10 @@ body:
     attributes:
       label: Story の完了条件（終了条件）
       description: こちらに`Story`の完了（終了）する条件をチェックボックス形式で記載ください。
-      placeholder: こちらに`Story`の完了（終了）する条件をチェックボックス形式で記載ください。
+      value: |
+        -[] チェックボックス1 
+        -[] チェックボックス2
+        -[] チェックボックス3
     validations:
       required: true
 
@@ -41,4 +50,7 @@ body:
     attributes:
       label: Story に関連する task
       description: こちらに`Story`に関連する`task`チェックボックス形式で作成してください。あとで追加しても問題ないです。) 
-      placeholder: こちらに`Story`に関連する`task`チェックボックス形式で作成してください。あとで追加しても問題ないです。) 
+      value: |
+        - URL
+        - URL
+        - URL
