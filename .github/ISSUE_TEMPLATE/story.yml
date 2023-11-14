@@ -2,7 +2,8 @@ name: Story template
 description: Storyを作成する際に利用ください
 title: "[Story]: "
 labels: ["story"]
-
+projects: |
+  - system-data-infra/1
 body:
   - type: markdown
     attributes:
