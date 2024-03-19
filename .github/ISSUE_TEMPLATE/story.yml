@@ -45,13 +45,3 @@ body:
         - [ ] チェックボックス3
     validations:
       required: true
-
-  - type: textarea
-    id: task
-    attributes:
-      label: Story に関連する task
-      description: こちらに`Story`に関連する`task`チェックボックス形式で作成してください。あとで追加しても問題ないです。) 
-      value: |
-        - URL
-        - URL
-        - URL

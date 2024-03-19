@@ -15,9 +15,9 @@ body:
       label: 関連する Task
       description: こちらに関連する`Task`を記載してください。
       value: |
-        - URL
-        - URL
-        - URL
+        - [ ] URL
+        - [ ] URL
+        - [ ] URL
     validations:
       required: true
 

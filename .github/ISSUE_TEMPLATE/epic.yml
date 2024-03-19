@@ -51,9 +51,9 @@ body:
       label: Epic に関連する Issue
       description: こちらに`Epic`に関連する`Issue`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
       value: |
-        - URL
-        - URL
-        - URL
+        - [ ] URL
+        - [ ] URL
+        - [ ] URL
 
   - type: textarea
     id: story
@@ -61,6 +61,6 @@ body:
       label: Epic に関連する Story
       description: こちらに`Epic`に関連する`Story`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
       value: |
-        - URL
-        - URL
-        - URL
+        - [ ] URL
+        - [ ] URL
+        - [ ] URL

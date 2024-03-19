@@ -15,9 +15,9 @@ body:
       label: 関連する Issue
       description: こちらに関連する`Issue or Sub Issue`を記載してください。
       value: |
-        - URL
-        - URL
-        - URL
+        - [ ] URL
+        - [ ] URL
+        - [ ] URL
     validations:
       required: true
 
@@ -56,10 +56,3 @@ body:
         - [ ] チェックボックス3
     validations:
       required: true
-
-  - type: textarea
-    id: sub-task
-    attributes:
-      label: task に関連する sub task
-      description: こちらに`task`に関連する`sub task`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
-      placeholder: こちらに`task`に関連する`sub task`チェックボックス形式で作成してください。(あとで追加しても問題ないです。) 
