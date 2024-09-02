@@ -11,6 +11,18 @@ body:
         Storyの作成ありがとうございます。
 
   - type: textarea
+    id: team-purpose-reason
+    attributes:
+      label: チーム目標との紐付け
+      description: こちらに`チーム目標`との紐付けをお願いします。
+      value: |
+        - [ ] URL
+        - [ ] URL
+        - [ ] URL
+    validations:
+      required: true
+
+  - type: textarea
     id: Story-reason
     attributes:
       label: Story 作成の背景

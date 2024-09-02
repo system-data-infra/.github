@@ -12,8 +12,8 @@ body:
   - type: textarea
     id: issue-or-sub-issue
     attributes:
-      label: 関連する Issue
-      description: こちらに関連する`Issue or Sub Issue`を記載してください。
+      label: 関連する Issueや`Story`やチーム目標を記載してください
+      description: こちらに関連する`Issue`を記載してください。
       value: |
         - [ ] URL
         - [ ] URL
