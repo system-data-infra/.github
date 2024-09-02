@@ -1,0 +1,46 @@
+name: team purpose template
+description: チーム目標を記載するのに利用ください
+title: "[Team Purpose]: "
+labels: ["team_purose"]
+projects: ["system-data-infra/13"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        チーム目標の作成ありがとうございます。
+
+  - type: textarea
+    id: team-puropse-reason
+    attributes:
+      label: チーム目標 作成の背景
+      description: こちらに`チーム目標`を作成した背景（理由）を記載ください。(なるべく短文で箇条書きで、図とかもあれば記載してください)
+      value: |
+        - 箇条書き1
+        - 箇条書き2
+        - 箇条書き3
+    validations:
+      required: true
+
+  - type: textarea
+    id: team-puropse
+    attributes:
+      label: チーム目標 の内容
+      description: こちらに`チーム目標`の内容を記載ください。(なるべく短文で箇条書きで)
+      value: |
+        - 箇条書き1 
+        - 箇条書き2
+        - 箇条書き3
+    validations:
+      required: true
+
+  - type: textarea
+    id: team-puropse-close-conditions
+    attributes:
+      label: チーム目標 の完了条件（終了条件）
+      description: こちらに`チーム目標`の完了（終了）する条件をチェックボックス形式で記載ください。
+      value: |
+        - [ ] チェックボックス1
+        - [ ] チェックボックス2
+        - [ ] チェックボックス3
+    validations:
+      required: true
