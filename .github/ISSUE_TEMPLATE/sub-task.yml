@@ -10,18 +10,6 @@ body:
         sub taskの作成ありがとうございます。
 
   - type: textarea
-    id: task
-    attributes:
-      label: 関連する Task
-      description: こちらに関連する`Task`を記載してください。
-      value: |
-        - [ ] URL
-        - [ ] URL
-        - [ ] URL
-    validations:
-      required: true
-
-  - type: textarea
     id: sub-task-reason
     attributes:
       label: sub task 作成の背景
